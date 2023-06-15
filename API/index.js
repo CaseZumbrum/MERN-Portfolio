@@ -26,5 +26,14 @@ app.get('/check_Connection', (req,res) => {
   res.send("server is running");
 });
 
+process.on('uncaughtException', (err, origin) => {
+  //code to log the errors
+  console.log(
+     `Caught exception: ${err}\n` +
+     `Exception origin: ${origin}`,
+   );
+ });
+ 
+
 app.listen(80);
 console.log("Listening on port 80");
