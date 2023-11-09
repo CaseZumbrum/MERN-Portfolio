@@ -10,7 +10,7 @@ app.use(express.json());
 app.use('/static', express.static('public'));
 app.use(express.static('/var/www/html/'))
 app.use(cors());
-mongoose.connect(process.env.MONGO_API_TOKEN);
+mongoose.connect('mongodb+srv://casezumbrum:Fp8GuQg3EKoSLIZ2@cluster0.l7fueqv.mongodb.net/content?retryWrites=true&w=majority');
 
 app.get('/posts', async (req,res) => {
     res.json(await Post.find().sort({time:-1}));
