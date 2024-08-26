@@ -1,9 +1,11 @@
 import Post from "../Post";
 import { useEffect, useState } from "react";
+import PopUp from "./popup";
+import Popup from 'reactjs-popup';
 export default function HomePage(){
     const [posts,setPosts] = useState([]);
     useEffect(() => {
-        fetch("/posts").then(response => {
+        fetch("http://www.casezumbrum.com/posts").then(response => {
             console.log(window.location.host)
             response.json().then(posts => {
                 console.log(posts);

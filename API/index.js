@@ -13,7 +13,14 @@ app.use(cors());
 mongoose.connect(process.env.MONGO_API);
 
 app.get('/posts', async (req,res) => {
-    res.json(await Post.find().sort({time:-1}));
+  res.json((await Post.find()).reverse().sort(function(a, b) {
+    var keyA = a.time,
+      keyB = b.time;
+    // Compare the 2 dates
+    if (keyA < keyB) return 1;
+    if (keyA > keyB) return -1;
+    return 0;
+  }));
 });
 
 app.use(express.static(path.join(__dirname, '../client/build')));
@@ -34,6 +41,10 @@ process.on('uncaughtException', (err, origin) => {
    );
  });
  
+
+app.get("/hello", (req,res) =>{
+	res.send(":)");
+});
 
 app.listen(80);
 console.log("Listening on port 80");

@@ -1,0 +1,20 @@
+
+  warning: the default view engine will not be jade in future releases
+  warning: use `--view=jade' or `--help' for additional options
+
+/home/bitnami/MERN-Portfolio/API/index.js:2
+const app = express();
+            ^
+
+TypeError: express is not a function
+    at Object.<anonymous> (/home/bitnami/MERN-Portfolio/API/index.js:2:13)
+    at Module._compile (node:internal/modules/cjs/loader:1356:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1414:10)
+    at Module.load (node:internal/modules/cjs/loader:1197:32)
+    at Module._load (node:internal/modules/cjs/loader:1013:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:128:12)
+    at node:internal/main/run_main_module:28:49
+
+Node.js v18.19.0
+Listening on port 80
+Listening on port 80

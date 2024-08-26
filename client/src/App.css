@@ -43,7 +43,7 @@ div.intro{
   border-bottom: solid rgb(43, 43, 43);
   border-top: solid rgb(43, 43, 43);
   font-size: 1.3rem;
-  
+  justify-content: center;
 }
 div.container{
   margin:0;
@@ -76,33 +76,30 @@ div.post{
   min-width: 20%;
 }
 div.intro div.post{
-  display: flex;
-  margin: auto;
+  margin: 2%;
   justify-content: center;
   display:flex;
   flex-wrap: wrap;
   min-width: 100%;
-  margin-bottom: 2vh;
-  margin-top: 2vh;
+  margin-bottom: 2%;
+  margin-top: 2%;
 }
 div.intro div.post div.image{
   justify-content: center;
-  float: left;
+  float: none;
 }
 div.intro div.post div.image img{
   background: rgb(24, 24, 24);
   border-radius: 20px;
   font-size: 25px;
-  text-align: center;
-  margin-right: 10px;
   border-radius:50%;
   display:inline-block;
   padding:10px;
-  min-width: 30vh;
-  min-height: 30vh;
-  max-width: 30vh;
+  min-width: 40vh;
+  max-width: 40vh;
 }
 div.intro div.post div.image a{
+  font-size: 1.1rem;
   color: rgb(140, 220, 254);
   
 }
@@ -143,7 +140,7 @@ div.post div.content h2{
 div.post p.info{
   margin: 6px 0;
   color: rgb(197, 134, 192);
-  font-size: .7rem;
+  font-size: 1.3rem;
   display: flex;
   gap: 10px;
 }
