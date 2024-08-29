@@ -12,11 +12,11 @@ export default function Intro(){
               </div>
               <div className = "content">
                 <p className='name'>Case_Zumbrum<span style={{color: "rgb(255, 181, 24)"}}>{"("}</span><span style={{color: "rgb(156, 220, 254)"}}>{"classOf"}</span><span style={{color: "rgb(212, 212, 212)"}}>{"="}</span><span style={{color: "rgb(148, 206, 168)"}}>{"2027"}</span><span style={{color: "rgb(255, 181, 24)"}}>{"){"}</span></p>
-                <p className = "summary">I'm a first year <span style={{color: "rgb(78, 201, 176)"}}>{"Computer Engineering"}</span> student at the <span style={{color: "rgb(206, 114, 60)"}}>{"University of Florida"}</span>.<br/><br/>
+                <p className = "summary">I'm a second year <span style={{color: "rgb(78, 201, 176)"}}>{"Computer Engineering"}</span> student at the <span style={{color: "rgb(206, 114, 60)"}}>{"University of Florida"}</span>.<br/><br/>
                 
                 I'm very interested in <span style={{color: "rgb(86, 156, 214)"}}>{"Machine Learning"}</span>, <span style={{color: "rgb(86, 156, 214)"}}>{"Data Analysis"}</span>, and <span style={{color: "rgb(86, 156, 214)"}}>{"Web 3.0"}</span>.<br/><br/>
                 
-                I'm currently working with <span style={{color: "rgb(78, 201, 176)"}}>{"UF Open Source"}</span> to help develop an <span style={{color: "rgb(197, 134, 192)"}}>{"App"}</span> that gives <span style={{color: "rgb(206, 114, 60)"}}>{"UF"}</span> students access to <span style={{color: "rgb(197, 134, 192)"}}>{"Location Based Chatrooms"}</span>.</p>
+                I'm currently working to design a <span style={{color: "rgb(78, 201, 176)"}}>{"Hardware Fourier Transform Chip"}</span> that uses <span style={{color: "rgb(197, 134, 192)"}}>{"Boolean Operations"}</span> to compute the <span style={{color: "rgb(206, 114, 60)"}}>{"Frequencies"}</span> present in an input <span style={{color: "rgb(197, 134, 192)"}}>{"Waveform"}</span>.</p>
                 <span style={{color: "rgb(255, 181, 24)"}}>{"}"}</span>
               </div>     
             </div>
